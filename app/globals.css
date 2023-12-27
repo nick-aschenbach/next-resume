@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-menu {
+  background-color: #50617a;
+  border-bottom: solid #778caa 1px;
+  color: white;
+}
+
+.hovered-text {
+  /*color: #50617a;*/
+  color: red;
+  background-color: #50617a;
+}
+
+ul {
+  list-style-type: disc;
+}
