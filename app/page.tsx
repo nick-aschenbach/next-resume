@@ -1,6 +1,6 @@
-import { redirect } from "next/navigation";
+import { redirect } from 'next/navigation'
 
 export default function Home() {
-  redirect("/resume");
-  return <main />;
+  redirect('/resume')
+  return <main />
 }
