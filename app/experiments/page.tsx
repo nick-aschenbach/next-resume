@@ -14,12 +14,12 @@ const tileData = [
     title: 'Firework particle simulation',
     route: 'Firework Simulator',
   },
-  // {
-  //   img: '/images/terrain.png',
-  //   href: '/experiments/terrain',
-  //   title: 'Wireframe Fractal Terrain Video',
-  //   route: 'Wireframe Fractal Terrain Video',
-  // },
+  {
+    img: '/images/terrain.png',
+    href: '/experiments/heightfield',
+    title: 'Wireframe Fractal Terrain Video',
+    route: 'Wireframe Fractal Terrain Video',
+  },
   // {
   //   img: '/images/plasma.png',
   //   title: 'Plasma Simulator Video',
