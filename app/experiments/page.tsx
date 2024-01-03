@@ -2,12 +2,6 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 const tileData = [
-  // {
-  //   img: '/images/ballistic.png',
-  //   href: '/experiments/ballistic',
-  //   title: 'Ballistics Simulator',
-  //   route: 'Ballistics Simulator',
-  // },
   {
     img: '/images/mandelbrot.png',
     href: '/experiments/mandelbrot',
@@ -21,20 +15,28 @@ const tileData = [
     route: 'Firework Simulator',
   },
   {
+    img: '/images/arkanoid.png',
+    href: '/experiments/arkanoid',
+    title: 'Arkanoid Game Levels',
+    route: 'Arkanoid Game Levels',
+  },
+  {
     img: '/images/terrain.png',
     href: '/experiments/heightfield',
     title: 'Wireframe Fractal Terrain Video',
     route: 'Wireframe Fractal Terrain Video',
   },
+  // WIP
+  // {
+  //   img: '/images/ballistic.png',
+  //   href: '/experiments/ballistic',
+  //   title: 'Ballistics Simulator',
+  //   route: 'Ballistics Simulator',
+  // },
   // {
   //   img: '/images/plasma.png',
   //   title: 'Plasma Simulator Video',
   //   route: 'Plasma Simulator Video',
-  // },
-  // {
-  //   img: '/images/arkanoid.png',
-  //   title: 'Arkanoid Game Levels',
-  //   route: 'Arkanoid Game Levels',
   // },
   // {
   //   img: '/images/terrain.png',

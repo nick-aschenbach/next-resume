@@ -42,7 +42,7 @@ export default function MandelbrotPage() {
       console.timeEnd('calculate')
     })
     // @ts-ignore
-  }, [calculateXPosition, calculateYPosition])
+  }, [])
 
   useEffect(() => {
     if (!array) return

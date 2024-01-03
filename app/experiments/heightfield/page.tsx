@@ -23,7 +23,7 @@ export default function Heightfield() {
   }
 
   return (
-    <div className='App experiment-background-dark'>
+    <div className='experiment-background-dark'>
       {getPlayer()}
       <div className={'fixed left-1 top-16 flex nav-link-dark'}>
         <IoMdArrowRoundBack size={24} />
