@@ -9,7 +9,7 @@ export default function ArkanoidPage() {
         width='100%'
         height='100%'
         title='ArkanoidScreen'
-        src='http://nick-aschenbach.github.io/assets/2015-04-27-arkanoid-game-levels/demo/index.html'
+        src='https://nick-aschenbach.github.io/assets/2015-04-27-arkanoid-game-levels/demo/index.html'
         className={'h-screen pl-20 pr-20'}
       />
       <div className={'fixed left-1 top-16 flex nav-link-dark'}>
