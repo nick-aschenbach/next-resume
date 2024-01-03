@@ -10,7 +10,7 @@ class FireworkParticle {
     this.x = this.x + this.dx
     this.y = this.y + this.dy
 
-    this.dy = this.dy + 0.01 + Math.random() * 0.01
+    this.dy = this.dy + 0.05 + Math.random() * 0.01
 
     if (this.dy > 0) this.die = true
   }
@@ -25,8 +25,8 @@ class FireworkParticle {
     this.x = this.initialX
     this.y = this.initialY
 
-    this.dy = -3.0 - Math.random()
-    this.dx = Math.random() - 0.5
+    this.dy = -8.0 - Math.random()
+    this.dx = Math.random() * 2 - 1
   }
 }
 

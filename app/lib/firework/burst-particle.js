@@ -1,4 +1,4 @@
-import gradients from '../gradients'
+import gradients from '../../ui/gradients'
 import { v4 } from 'uuid'
 
 class BurstParticle {

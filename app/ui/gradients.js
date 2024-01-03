@@ -1,4 +1,4 @@
-const carribeanBlues = [
+const caribbeanBlues = [
   'rgb(0, 33, 148)',
   'rgb(0, 34, 149)',
   'rgb(1, 34, 149)',
@@ -3095,8 +3095,8 @@ const yellowOrange = [
   'rgb(230, 110, 29)',
 ]
 
-export default {
-  carribeanBlues,
+const gradients = {
+  caribbeanBlues,
   deepSea,
   fullSaturationSpectrum,
   greyscale,
@@ -3109,3 +3109,4 @@ export default {
   tropicalColors,
   yellowOrange,
 }
+export default gradients

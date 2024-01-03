@@ -9,6 +9,12 @@ const tileData = [
   //   route: 'Ballistics Simulator',
   // },
   {
+    img: '/images/mandelbrot.png',
+    href: '/experiments/mandelbrot',
+    title: 'Mandelbrot Fractal',
+    route: 'Mandelbrot Fractal',
+  },
+  {
     img: '/images/firework.png',
     href: '/experiments/firework',
     title: 'Firework particle simulation',
@@ -34,11 +40,6 @@ const tileData = [
   //   img: '/images/terrain.png',
   //   title: 'WebGL Terrain Generator',
   //   route: 'WebGL Terrain Generator',
-  // },
-  // {
-  //   img: '/images/mandelbrot.png',
-  //   title: 'Mandelbrot Fractal',
-  //   route: 'Mandelbrot Fractal',
   // },
 ]
 

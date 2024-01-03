@@ -4,9 +4,9 @@ import { useEffect } from 'react'
 import Link from 'next/link'
 import { IoMdArrowRoundBack } from 'react-icons/io'
 
-import FireworkJetParticle from '@/app/ui/firework/firework-jet-particle'
-import BurstParticle from '@/app/ui/firework/burst-particle'
-import FireworkParticle from '@/app/ui/firework/firework-particle'
+import FireworkJetParticle from '@/app/lib/firework/firework-jet-particle'
+import BurstParticle from '@/app/lib/firework/burst-particle'
+import FireworkParticle from '@/app/lib/firework/firework-particle'
 
 import gradients from '@/app/ui/gradients'
 

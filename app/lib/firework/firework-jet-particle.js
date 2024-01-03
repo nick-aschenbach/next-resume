@@ -1,4 +1,4 @@
-import Gradients from '../gradients'
+import Gradients from '../../ui/gradients'
 import { v4 } from 'uuid'
 
 class FireworkJetParticle {
