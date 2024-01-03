@@ -47,12 +47,21 @@ const tileData = [
 
 export default function Experiments() {
   return (
-    <div className={'grid grid-cols-4 m-10'}>
+    <div className={'grid md:grid-cols-4 m-10 gap-10 justify-items-center'}>
       {tileData.map((tile, index) => {
         return (
-          <Link href={tile.href} key={index}>
-            <Image src={tile.img} alt={tile.title} width={250} height={250} />
-          </Link>
+          <div className={'text-center '}>
+            <Link href={tile.href} key={index}>
+              <Image
+                src={tile.img}
+                alt={tile.title}
+                width={250}
+                height={250}
+                className={'bg-cover h-100 w-50 rounded 50-vw h-60 object-cover '}
+              />
+            </Link>
+            {tile.title}
+          </div>
         )
       })}
     </div>
