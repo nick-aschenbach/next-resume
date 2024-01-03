@@ -50,14 +50,14 @@ export default function Experiments() {
     <div className={'grid md:grid-cols-4 m-10 gap-10 justify-items-center'}>
       {tileData.map((tile, index) => {
         return (
-          <div className={'text-center '}>
+          <div className={'text-center'}>
             <Link href={tile.href} key={index}>
               <Image
                 src={tile.img}
                 alt={tile.title}
                 width={250}
                 height={250}
-                className={'bg-cover h-100 w-50 rounded 50-vw h-60 object-cover '}
+                className={'bg-cover h-100 w-50 rounded 50-vw h-60 object-cover drop-shadow-md'}
               />
             </Link>
             {tile.title}
