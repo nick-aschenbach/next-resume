@@ -59,7 +59,7 @@ export default function Resume() {
           <div className={'lg:grid lg:grid-cols-6'}>
             <p className={`${montserrat_bold.className} col-span-1 min-w-10`}>EXPERIENCE</p>
             <div className={'col-span-5'}>
-              <p>Head of Engineering</p>
+              <p>Team Lead / Head of Engineering</p>
               <div className={'grid grid-cols-2 content-between'}>
                 <p>VECKTA Corp - San Diego, CA</p>
                 <p className={'text-center'}>2020-2024</p>
@@ -83,9 +83,12 @@ export default function Resume() {
                 </li>
                 <li>Developed and monitored key performance indicators to ensure and communicate team success</li>
                 <li>Built ChatGPT enabled electrical outage detector bot prototype</li>
+                <li>
+                  Tech stack: React, Next, Vercel, Nodejs, Prisma, Postgres, AWS: RDS, S3, EC2, Cognito
+                </li>
               </ul>
               <div className={'m-5'} />
-              <p>Software Engineering Team Lead / Engineering Manager</p>
+              <p>Team Lead / Engineering Manager</p>
               <div className={'grid grid-cols-2 content-between'}>
                 <p>Cambia Health Solutions - Portland, OR</p>
                 <p className={'text-center'}>2016-2020</p>

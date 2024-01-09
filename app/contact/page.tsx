@@ -1,9 +1,10 @@
-import { Lia500Px } from 'react-icons/lia'
 import Link from 'next/link'
 import { CiLinkedin } from 'react-icons/ci'
 import { HiOutlineDevicePhoneMobile } from 'react-icons/hi2'
 import { MdOutlineMailOutline } from 'react-icons/md'
-import { GoLink } from 'react-icons/go'
+import { PiGithubLogo } from 'react-icons/pi'
+import { PiNotePencil } from "react-icons/pi";
+
 
 export default function ContactInfo() {
   return (
@@ -21,7 +22,7 @@ export default function ContactInfo() {
         <div className={'col-span-1'}>Phone</div>
         <div className={'col-span-5'}>
           <div className={'flex nav-link-light'}>
-            <HiOutlineDevicePhoneMobile size={24} className={'absolute'}/>
+            <HiOutlineDevicePhoneMobile size={24} className={'absolute'} />
             <div className={'pl-8'}>
               <Link href={'tel:503-915-1358'}>(503) 915.1358 (US)</Link>
             </div>
@@ -38,10 +39,21 @@ export default function ContactInfo() {
             </div>
           </div>
         </div>
+        <div className={'col-span-1'}>Github</div>
+        <div className={'col-span-5'}>
+          <div className={'flex nav-link-light'}>
+            <PiGithubLogo size={24} className={'absolute'} />
+            <div className={'pl-8'}>
+              <Link href={'https://github.com/nick-aschenbach/'} target={'_blank'}>
+                https://github.com/nick-aschenbach/
+              </Link>
+            </div>
+          </div>
+        </div>
         <div className={'col-span-1'}>Blog</div>
         <div className={'col-span-5'}>
           <div className={'flex nav-link-light'}>
-            <GoLink size={20} className={'absolute pl-1'}/>
+            <PiNotePencil size={24} className={'absolute'} />
             <div className={'pl-8'}>
               <Link href={'https://nick-aschenbach.github.io'} target={'_blank'}>
                 https://nick-aschenbach.github.io
