@@ -27,6 +27,11 @@ const tileData = [
     href: '/experiments/starfield',
     title: 'Starfield intro SVG animation',
   },
+  {
+    img: '/images/heatmap.png',
+    href: '/experiments/8760',
+    title: 'Solar irradiance (8760 data)',
+  },
 ]
 
 export default function Experiments() {
