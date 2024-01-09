@@ -5,7 +5,7 @@ import { IoMdArrowRoundBack } from 'react-icons/io'
 import ReactPlayer from 'react-player'
 import { Suspense, useEffect, useState } from 'react'
 
-export default function HeightfieldPage() {
+export default function LlarkKnightPage() {
   const [renderPlayer, setRenderPlayer] = useState(false)
 
   useEffect(() => {
@@ -17,7 +17,7 @@ export default function HeightfieldPage() {
 
     return (
       <div className={'grid experiment-background-height justify-center items-center'}>
-        <ReactPlayer url={'https://www.youtube.com/embed/0cVVC1rkCho'} width={'800px'} height={'600px'} playing />
+        <ReactPlayer url={'https://www.youtube.com/watch?v=_lpbBPUJawk'} width={'800px'} height={'600px'} playing />
       </div>
     )
   }
@@ -32,10 +32,7 @@ export default function HeightfieldPage() {
         </Link>
       </div>
       <div className={'fixed left-1 bottom-1 nav-link-dark'}>
-        <Link
-          href='https://nick-aschenbach.github.io/blog/categories/terrain/'
-          target='_blank'
-        >
+        <Link href='https://nick-aschenbach.github.io/blog/categories/terrain/' target='_blank'>
           See related blog posts
         </Link>
       </div>

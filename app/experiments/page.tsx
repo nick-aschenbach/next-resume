@@ -18,9 +18,9 @@ const tileData = [
     title: 'Arkanoid Game Levels',
   },
   {
-    img: '/images/terrain.png',
-    href: '/experiments/heightfield',
-    title: 'Wireframe Fractal Terrain Video',
+    img: '/images/heatmap.png',
+    href: '/experiments/8760',
+    title: 'Solar irradiance data viz',
   },
   {
     img: '/images/starfield.png',
@@ -28,9 +28,14 @@ const tileData = [
     title: 'Starfield intro SVG animation',
   },
   {
-    img: '/images/heatmap.png',
-    href: '/experiments/8760',
-    title: 'Solar irradiance (8760 data)',
+    img: '/images/llark.png',
+    href: '/experiments/llark',
+    title: 'Llark knight animation',
+  },
+  {
+    img: '/images/terrain.png',
+    href: '/experiments/heightfield',
+    title: 'Wireframe Fractal Terrain Video',
   },
 ]
 
