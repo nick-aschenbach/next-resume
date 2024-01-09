@@ -63,10 +63,8 @@ export default function Firework() {
   })
 
   return (
-    <div className='App experiment-background-dark'>
-      <header className='App-header'>
-        <canvas id='mainCanvas' />
-      </header>
+    <div className='App experiment-background-dark experiment-background-height'>
+      <canvas id='mainCanvas' className={'h-full w-full'} />
       <div className={'fixed left-1 top-16 flex nav-link-dark'}>
         <IoMdArrowRoundBack size={24} />
         <Link href={'/experiments'} className={'pl-1'}>

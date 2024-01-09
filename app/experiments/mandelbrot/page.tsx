@@ -76,7 +76,8 @@ export default function MandelbrotPage() {
   }, [array, gradient])
 
   return (
-    <div>
+    <div className={'experiment-background-height'}>
+      <canvas id='mainCanvas' className={'w-full h-full'} />
       <div className={'fixed top-16 right-2'}>
         <label htmlFor='gradient' className={'text-yellow-300 pr-5'}>
           Choose a color gradient
@@ -101,7 +102,6 @@ export default function MandelbrotPage() {
           Back
         </Link>
       </div>
-      <canvas id='mainCanvas' />
     </div>
   )
 }

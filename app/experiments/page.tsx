@@ -31,7 +31,7 @@ const tileData = [
 
 export default function Experiments() {
   return (
-    <div className={'grid md:grid-cols-4 m-10 gap-10 justify-items-center mt-20'}>
+    <div className={'grid md:grid-cols-4 m-10 gap-10 justify-items-center'}>
       {tileData.map((tile, index) => {
         return (
           <div className={'text-center'} key={index}>

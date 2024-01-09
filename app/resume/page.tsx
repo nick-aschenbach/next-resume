@@ -6,7 +6,7 @@ import { montserrat_bold, montserrat_normal } from '@/app/ui/fonts'
 export default function Resume() {
   return (
     <div>
-      <div className={'m-10 mt-20'}>
+      <div className={'m-10'}>
         <p className={`${montserrat_bold.className} text-6xl`}>NICK ASCHENBACH</p>
         <div className={'ml-1'}>
           <div className={'m-5'} />
