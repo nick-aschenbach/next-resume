@@ -7,7 +7,7 @@ import { GoLink } from 'react-icons/go'
 
 export default function ContactInfo() {
   return (
-    <div className={'m-10'}>
+    <div className={'m-10 mt-20'}>
       <div className={'md:grid md:grid-cols-6 md:gap-1'}>
         <div className={'col-span-1'}>Email</div>
         <div className={'col-span-5'}>

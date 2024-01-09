@@ -9,22 +9,18 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@react-three/drei": "^9.92.7",
-    "@react-three/fiber": "^8.15.13",
+    "framer-motion": "^10.17.9",
     "next": "14.0.4",
     "react": "^18",
     "react-dom": "^18",
     "react-icons": "^4.12.0",
     "react-player": "^2.14.1",
-    "simplex-noise": "^4.0.1",
-    "three": "^0.160.0",
     "uuid": "^9.0.1"
   },
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
-    "@types/three": "^0.160.0",
     "autoprefixer": "^10.0.1",
     "eslint": "^8",
     "eslint-config-next": "14.0.4",

@@ -6,48 +6,32 @@ const tileData = [
     img: '/images/mandelbrot.png',
     href: '/experiments/mandelbrot',
     title: 'Mandelbrot Fractal',
-    route: 'Mandelbrot Fractal',
   },
   {
     img: '/images/firework.png',
     href: '/experiments/firework',
     title: 'Firework particle simulation',
-    route: 'Firework Simulator',
   },
   {
     img: '/images/arkanoid.png',
     href: '/experiments/arkanoid',
     title: 'Arkanoid Game Levels',
-    route: 'Arkanoid Game Levels',
   },
   {
     img: '/images/terrain.png',
     href: '/experiments/heightfield',
     title: 'Wireframe Fractal Terrain Video',
-    route: 'Wireframe Fractal Terrain Video',
   },
-  // WIP
-  // {
-  //   img: '/images/ballistic.png',
-  //   href: '/experiments/ballistic',
-  //   title: 'Ballistics Simulator',
-  //   route: 'Ballistics Simulator',
-  // },
-  // {
-  //   img: '/images/plasma.png',
-  //   title: 'Plasma Simulator Video',
-  //   route: 'Plasma Simulator Video',
-  // },
-  // {
-  //   img: '/images/terrain.png',
-  //   title: 'WebGL Terrain Generator',
-  //   route: 'WebGL Terrain Generator',
-  // },
+  {
+    img: '/images/starfield.png',
+    href: '/experiments/starfield',
+    title: 'Starfield intro SVG animation',
+  },
 ]
 
 export default function Experiments() {
   return (
-    <div className={'grid md:grid-cols-4 m-10 gap-10 justify-items-center'}>
+    <div className={'grid md:grid-cols-4 m-10 gap-10 justify-items-center mt-20'}>
       {tileData.map((tile, index) => {
         return (
           <div className={'text-center'} key={index}>

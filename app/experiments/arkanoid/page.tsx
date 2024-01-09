@@ -10,7 +10,7 @@ export default function ArkanoidPage() {
         height='100%'
         title='ArkanoidScreen'
         src='https://nick-aschenbach.github.io/assets/2015-04-27-arkanoid-game-levels/demo/index.html'
-        className={'h-screen pl-20 pr-20'}
+        className={'h-screen pl-20 pr-20 pt-10'}
       />
       <div className={'fixed left-1 top-16 flex nav-link-dark'}>
         <IoMdArrowRoundBack size={24} />

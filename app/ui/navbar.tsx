@@ -10,7 +10,7 @@ export default function Navbar() {
   const pathname = usePathname()
 
   return (
-    <div className={'nav-menu flex justify-start p-1 shadow-lg whitespace-nowrap'}>
+    <div className={'nav-menu flex justify-start p-1 shadow-lg whitespace-nowrap fixed z-50 w-full top-0'}>
       <SidebarItem icon={<VscFileCode size={24} />} text='Resume' link={'/resume'} pathname={pathname} />
       <SidebarItem icon={<VscBeaker size={24} />} text='Experiments' link={'/experiments'} pathname={pathname} />
       <SidebarItem icon={<VscAccount size={24} />} text='Contact info' link={'/contact'} pathname={pathname} />
