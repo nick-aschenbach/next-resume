@@ -41,7 +41,7 @@ const tileData = [
 
 export default function Experiments() {
   return (
-    <div className={'grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 m-10 gap-10 justify-items-center'}>
+    <div className={'grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 m-10 sm:gap-10 sm:justify-items-start'}>
       {tileData.map((tile, index) => {
         return (
           <div className={'text-center'} key={index}>
@@ -51,10 +51,14 @@ export default function Experiments() {
                 alt={tile.title}
                 width={250}
                 height={250}
-                className={'bg-cover h-100 w-50 rounded 50-vw h-60 object-cover drop-shadow-md min-w-60'}
+                className={'bg-cover sm:h-100 sm:w-50 rounded sm:50-vw sm:h-60 object-cover drop-shadow-md sm:min-w-60'}
               />
             </Link>
-            {tile.title}
+            <div
+              className={'text-left sm:text-center md:text-center lg:text-center xl:text-center 2xl:text-center mb-10'}
+            >
+              {tile.title}
+            </div>
           </div>
         )
       })}
