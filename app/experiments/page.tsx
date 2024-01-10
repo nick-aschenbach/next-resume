@@ -41,7 +41,7 @@ const tileData = [
 
 export default function Experiments() {
   return (
-    <div className={'grid md:grid-cols-4 m-10 gap-10 justify-items-center'}>
+    <div className={'grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 m-10 gap-10 justify-items-center'}>
       {tileData.map((tile, index) => {
         return (
           <div className={'text-center'} key={index}>
@@ -51,7 +51,7 @@ export default function Experiments() {
                 alt={tile.title}
                 width={250}
                 height={250}
-                className={'bg-cover h-100 w-50 rounded 50-vw h-60 object-cover drop-shadow-md'}
+                className={'bg-cover h-100 w-50 rounded 50-vw h-60 object-cover drop-shadow-md min-w-60'}
               />
             </Link>
             {tile.title}
