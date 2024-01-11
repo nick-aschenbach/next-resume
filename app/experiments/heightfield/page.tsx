@@ -13,10 +13,10 @@ export default function HeightfieldPage() {
   }, [])
 
   const getPlayer = () => {
-    if (!renderPlayer) return <div className={'experiment-background-height'} />
+    if (!renderPlayer) return <div className={'experiment-background-size'} />
 
     return (
-      <div className={'grid experiment-background-height justify-center items-center'}>
+      <div className={'grid experiment-background-size justify-center items-center'}>
         <ReactPlayer url={'https://www.youtube.com/embed/0cVVC1rkCho'} width={'800px'} height={'600px'} playing />
       </div>
     )

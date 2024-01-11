@@ -13,7 +13,7 @@ export default function EightySevenSixtyPage() {
   const [gradient, setGradient] = useState('incandescent')
 
   return (
-    <div className='experiment-background-dark experiment-background-height p-20 grid justify-center items-center grid-cols-1'>
+    <div className='experiment-background-dark experiment-background-size p-20 grid justify-center items-center grid-cols-1'>
       <HeatMap data={GHI_SOLAR_IRRADIANCE_GHI} unit={'w / m²'} useLargeFont gradient={gradient} />
       <div className={'fixed left-1 top-16 flex nav-link-dark'}>
         <IoMdArrowRoundBack size={24} />

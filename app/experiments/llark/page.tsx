@@ -13,10 +13,10 @@ export default function LlarkKnightPage() {
   }, [])
 
   const getPlayer = () => {
-    if (!renderPlayer) return <div className={'experiment-background-height'} />
+    if (!renderPlayer) return <div className={'experiment-background-size'} />
 
     return (
-      <div className={'grid experiment-background-height justify-center items-center'}>
+      <div className={'grid experiment-background-size justify-center items-center'}>
         <ReactPlayer url={'https://www.youtube.com/watch?v=_lpbBPUJawk'} width={'800px'} height={'600px'} playing />
       </div>
     )

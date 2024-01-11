@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export default function ArkanoidPage() {
   return (
-    <div className='experiment-background-dark experiment-background-height grid justify-center items-center grid-cols-1'>
+    <div className='experiment-background-dark experiment-background-size grid justify-center items-center grid-cols-1'>
       <iframe
         frameBorder='0'
         title='ArkanoidScreen'

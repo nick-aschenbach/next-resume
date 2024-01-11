@@ -12,7 +12,7 @@ import gradients from '@/app/ui/gradients'
 
 const MAX_PARTICLES = 250
 
-export default function Firework() {
+export default function FireworkPage() {
   useEffect(() => {
     const width = window.innerWidth
     const height = window.innerHeight
@@ -63,7 +63,7 @@ export default function Firework() {
   })
 
   return (
-    <div className='App experiment-background-dark experiment-background-height'>
+    <div className='experiment-background-dark experiment-background-size'>
       <canvas id='mainCanvas' className={'h-full w-full'} />
       <div className={'fixed left-1 top-16 flex nav-link-dark'}>
         <IoMdArrowRoundBack size={24} />

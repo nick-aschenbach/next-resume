@@ -10,7 +10,7 @@ import Link from 'next/link'
 
 const simplex = createNoise2D(Math.random)
 
-export default function TerrainScreen() {
+export default function TerrainPage() {
   const [terrain, setTerrain] = useState()
 
   const WIDTH = 150
@@ -19,7 +19,6 @@ export default function TerrainScreen() {
   const SPEED = 0.15
 
   useEffect(() => {
-    console.log('creating terrain grid')
     const arr = []
     for (let x = 0; x < WIDTH; x++) {
       const inner = []
@@ -158,7 +157,7 @@ export default function TerrainScreen() {
   }, [terrain])
 
   return (
-    <div id='terrainTarget'>
+    <div id='terrainTarget' className='experiment-background-dark experiment-background-size'>
       <div className={'fixed left-1 top-16 flex nav-link-dark'}>
         <IoMdArrowRoundBack size={24} />
         <Link href={'/experiments'} className={'pl-1'}>

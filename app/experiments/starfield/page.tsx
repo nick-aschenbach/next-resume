@@ -4,7 +4,7 @@ import Bethesda from '@/app/experiments/starfield/bethesda'
 
 export default function StarfieldPage() {
   return (
-    <div className={'experiment-background-dark experiment-background-height'}>
+    <div className={'experiment-background-dark experiment-background-size'}>
       <Bethesda className={'h-full w-full'} />
       <div className={'fixed left-1 top-16 flex nav-link-dark'}>
         <IoMdArrowRoundBack size={24} />

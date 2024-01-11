@@ -6,6 +6,7 @@
   background-color: #50617a;
   border-bottom: solid #778caa 1px;
   color: white;
+  min-width: 450px;
 }
 
 .nav-link-light {
@@ -20,8 +21,9 @@
   background-color: #292d32;
 }
 
-.experiment-background-height {
+.experiment-background-size {
   height: calc(100vh - 49px);
+  min-width: 450px;
 }
 
 ul {
