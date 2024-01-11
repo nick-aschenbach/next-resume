@@ -8,6 +8,7 @@ import HeatMap from '@/app/experiments/8760/HeatMap'
 import GHI_SOLAR_IRRADIANCE_GHI from './data'
 import { useState } from 'react'
 import gradients from '@/app/ui/gradients'
+import { Tooltip } from 'react-tooltip'
 
 export default function EightySevenSixtyPage() {
   const [gradient, setGradient] = useState('incandescent')
@@ -38,6 +39,17 @@ export default function EightySevenSixtyPage() {
             </option>
           ))}
         </select>
+      </div>
+      <div style={{ position: 'fixed', left: 25, bottom: 50, color: 'yellow' }}>
+        <p data-tooltip-id='react-tooltip' className={'cursor-pointer'}>
+          Info
+        </p>
+        <Tooltip place='right' id='react-tooltip'>
+          A data visualisation I developed that shows hourly data across the year. There are 8760 rectangles <br />
+          (24 hours x 365 days). Data is provided in an array and the color gradient is scaled to fit. The data <br />
+          shown here is from the National Renewable Energy Laboratory solar irradiance dataset. This shows the <br />
+          solar panel energy generation potential for a site in California.
+        </Tooltip>
       </div>
     </div>
   )
