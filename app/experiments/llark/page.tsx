@@ -37,9 +37,10 @@ export default function LlarkKnightPage() {
           Info
         </p>
         <Tooltip place='right' id='react-tooltip'>
-          This was a fun little project I did in Adobe's After Effects product. I worked with a UX designer <br />
-          who came up with the artwork. I animated the scene and added the Danny Elfman's song from the Batman
-          soundtrack.
+          This was a fun little project I did in Adobe&apos;s After Effects product. I worked with a UX designer <br />
+          who came up with the artwork. I animated the scene and added the Danny Elfman&apos;s song from the
+          <br />
+          Batman soundtrack.
         </Tooltip>
       </div>
     </div>
