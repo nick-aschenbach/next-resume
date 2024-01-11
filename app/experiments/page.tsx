@@ -33,6 +33,11 @@ const tileData = [
     title: 'Llark knight animation',
   },
   {
+    img: '/images/simplex-terrain.png',
+    href: '/experiments/terrain',
+    title: 'Random terrain generation',
+  },
+  {
     img: '/images/terrain.png',
     href: '/experiments/heightfield',
     title: 'Wireframe Fractal Terrain Video',
