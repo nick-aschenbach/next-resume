@@ -66,7 +66,6 @@ export default function Resume() {
               </div>
               <div className={'m-5'} />
               <ul className={'pl-5'}>
-                <li>Lead company engineering function that develops world class software</li>
                 <li>
                   Collaborated with internal and external stakeholders to build features that solve the right problems
                 </li>
@@ -83,14 +82,12 @@ export default function Resume() {
                 </li>
                 <li>Developed and monitored key performance indicators to ensure and communicate team success</li>
                 <li>Built ChatGPT enabled electrical outage detector bot prototype</li>
-                <li>
-                  Tech stack: React, Next, Vercel, Nodejs, Prisma, Postgres, AWS: RDS, S3, EC2, Cognito
-                </li>
+                <li>Tech stack: React, Next, Vercel, Nodejs, Prisma, Postgres, AWS: RDS, S3, EC2, Cognito</li>
               </ul>
               <div className={'m-5'} />
               <p>Team Lead / Engineering Manager</p>
               <div className={'grid grid-cols-2 content-between'}>
-                <p>Cambia Health Solutions - Portland, OR</p>
+                <p>Blue Cross / Blue Shield - Portland, OR</p>
                 <p className={'text-center'}>2016-2020</p>
               </div>
               <div className={'m-5'} />
