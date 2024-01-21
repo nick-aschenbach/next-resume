@@ -67,7 +67,6 @@ export default function ParallaxPage() {
           Back
         </Link>
       </div>
-      <div className={'fixed right-1 top-16 flex nav-link-dark z-40'}>{width}</div>
       <div style={{ position: 'fixed', left: 25, bottom: 50, color: 'yellow', zIndex: 40 }}>
         <p data-tooltip-id='react-tooltip' className={'cursor-pointer'}>
           Info
