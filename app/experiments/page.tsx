@@ -38,9 +38,9 @@ const tileData = [
     title: 'Random terrain generation',
   },
   {
-    img: '/images/terrain.png',
-    href: '/experiments/heightfield',
-    title: 'Wireframe Fractal Terrain Video',
+    img: '/images/parallax.png',
+    href: '/experiments/parallax',
+    title: 'Parallax effect',
   },
 ]
 
@@ -56,7 +56,7 @@ export default function Experiments() {
                 alt={tile.title}
                 width={250}
                 height={250}
-                className={'bg-cover sm:h-100 sm:w-50 rounded sm:50-vw sm:h-60 object-cover drop-shadow-md sm:min-w-60'}
+                className={'bg-cover sm:h-100 sm:w-50 rounded sm:50-vw sm:h-60 object-cover drop-shadow-md sm:min-w-60 cursor-pointer'}
               />
             </Link>
             <div

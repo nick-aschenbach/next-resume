@@ -29,3 +29,8 @@
 ul {
   list-style-type: disc;
 }
+
+.lightBlueText {
+  color: #4f607a;
+  filter: drop-shadow(1px 1px 2px #999)
+}
