@@ -19,7 +19,7 @@ export interface LayoutConfig {
 
 export const ParallaxConfig: Record<Adaptive, Record<Pages, PageConfig> & LayoutConfig> = {
   [Adaptive.xs]: {
-    pages: 1.2,
+    pages: 1.25,
     [Pages.firstPage]: {
       offset: 0.0,
       speed: 0.2,
@@ -27,17 +27,17 @@ export const ParallaxConfig: Record<Adaptive, Record<Pages, PageConfig> & Layout
     },
     [Pages.secondPage]: {
       offset: 0.2,
-      speed: 0.3,
+      speed: 0.4,
       factor: 1,
     },
     [Pages.thirdPage]: {
       offset: 0.4,
-      speed: 0.5,
+      speed: 0.6,
       factor: 1,
     },
     [Pages.fourthPage]: {
       offset: 0.5,
-      speed: 0.6,
+      speed: 0.8,
       factor: 1,
     },
   },
@@ -50,17 +50,17 @@ export const ParallaxConfig: Record<Adaptive, Record<Pages, PageConfig> & Layout
     },
     [Pages.secondPage]: {
       offset: 0.3,
-      speed: 0.3,
+      speed: 0.4,
       factor: 1,
     },
     [Pages.thirdPage]: {
       offset: 0.5,
-      speed: 0.5,
+      speed: 0.6,
       factor: 1,
     },
     [Pages.fourthPage]: {
       offset: 0.5,
-      speed: 0.6,
+      speed: 0.8,
       factor: 1,
     },
   },
@@ -73,17 +73,17 @@ export const ParallaxConfig: Record<Adaptive, Record<Pages, PageConfig> & Layout
     },
     [Pages.secondPage]: {
       offset: 0.2,
-      speed: 0.3,
+      speed: 0.4,
       factor: 1.2,
     },
     [Pages.thirdPage]: {
       offset: 0.4,
-      speed: 0.5,
+      speed: 0.6,
       factor: 1.2,
     },
     [Pages.fourthPage]: {
       offset: 0.4,
-      speed: 0.6,
+      speed: 0.8,
       factor: 1.2,
     },
   },
@@ -96,17 +96,17 @@ export const ParallaxConfig: Record<Adaptive, Record<Pages, PageConfig> & Layout
     },
     [Pages.secondPage]: {
       offset: 0.2,
-      speed: 0.3,
+      speed: 0.4,
       factor: 1.3,
     },
     [Pages.thirdPage]: {
       offset: 0.4,
-      speed: 0.5,
+      speed: 0.6,
       factor: 1.3,
     },
     [Pages.fourthPage]: {
       offset: 0.4,
-      speed: 0.6,
+      speed: 0.8,
       factor: 1.3,
     },
   },
@@ -119,17 +119,17 @@ export const ParallaxConfig: Record<Adaptive, Record<Pages, PageConfig> & Layout
     },
     [Pages.secondPage]: {
       offset: 0.2,
-      speed: 0.3,
+      speed: 0.4,
       factor: 1.3,
     },
     [Pages.thirdPage]: {
       offset: 0.4,
-      speed: 0.5,
+      speed: 0.6,
       factor: 1.3,
     },
     [Pages.fourthPage]: {
       offset: 0.4,
-      speed: 0.6,
+      speed: 0.8,
       factor: 1.3,
     },
   },
