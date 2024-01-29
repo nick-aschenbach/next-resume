@@ -25,7 +25,7 @@ const tileData = [
   {
     img: '/images/starfield.png',
     href: '/experiments/starfield',
-    title: 'Starfield intro SVG animation',
+    title: 'Starfield intro SVG animation 1',
   },
   {
     img: '/images/llark.png',
@@ -41,6 +41,11 @@ const tileData = [
     img: '/images/parallax.png',
     href: '/experiments/parallax',
     title: 'Parallax effect',
+  },
+  {
+    img: '/images/starfield-intro.png',
+    href: '/experiments/starfield2',
+    title: 'Starfield intro SVG animation 2',
   },
 ]
 
