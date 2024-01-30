@@ -26,6 +26,10 @@
   min-width: 450px;
 }
 
+.side-scrolling-image {
+  scale: 1.0001
+}
+
 ul {
   list-style-type: disc;
 }
@@ -34,3 +38,4 @@ ul {
   color: #4f607a;
   filter: drop-shadow(1px 1px 2px #999)
 }
+

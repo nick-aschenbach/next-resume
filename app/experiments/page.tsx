@@ -3,6 +3,31 @@ import Link from 'next/link'
 
 const tileData = [
   {
+    img: '/images/starfield.png',
+    href: '/experiments/starfield',
+    title: 'Starfield intro SVG animation 1',
+  },
+  {
+    img: '/images/starfield-intro.png',
+    href: '/experiments/starfield2',
+    title: 'Starfield intro SVG animation 2',
+  },
+  {
+    img: '/images/side-scroll-banner.png',
+    href: '/experiments/looping',
+    title: 'Infinite side scrolling',
+  },
+  {
+    img: '/images/simplex-terrain.png',
+    href: '/experiments/terrain',
+    title: 'Random terrain generation',
+  },
+  {
+    img: '/images/parallax.png',
+    href: '/experiments/parallax',
+    title: 'Parallax effect',
+  },
+  {
     img: '/images/mandelbrot.png',
     href: '/experiments/mandelbrot',
     title: 'Mandelbrot Fractal',
@@ -23,29 +48,9 @@ const tileData = [
     title: 'Solar irradiance data viz',
   },
   {
-    img: '/images/starfield.png',
-    href: '/experiments/starfield',
-    title: 'Starfield intro SVG animation 1',
-  },
-  {
     img: '/images/llark.png',
     href: '/experiments/llark',
     title: 'Llark knight animation',
-  },
-  {
-    img: '/images/simplex-terrain.png',
-    href: '/experiments/terrain',
-    title: 'Random terrain generation',
-  },
-  {
-    img: '/images/parallax.png',
-    href: '/experiments/parallax',
-    title: 'Parallax effect',
-  },
-  {
-    img: '/images/starfield-intro.png',
-    href: '/experiments/starfield2',
-    title: 'Starfield intro SVG animation 2',
   },
 ]
 
@@ -61,7 +66,9 @@ export default function Experiments() {
                 alt={tile.title}
                 width={250}
                 height={250}
-                className={'bg-cover sm:h-100 sm:w-50 rounded sm:50-vw sm:h-60 object-cover drop-shadow-md sm:min-w-60 cursor-pointer'}
+                className={
+                  'bg-cover sm:h-100 sm:w-50 rounded sm:50-vw sm:h-60 object-cover drop-shadow-md sm:min-w-60 cursor-pointer'
+                }
               />
             </Link>
             <div
