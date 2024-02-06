@@ -13,6 +13,11 @@ const tileData = [
     title: 'Starfield intro SVG animation 2',
   },
   {
+    img: '/images/shadows-thumbnail.jpg',
+    href: '/experiments/ashes',
+    title: 'Ashes of Tomorrow story'
+  },
+  {
     img: '/images/side-scroll-banner.png',
     href: '/experiments/looping',
     title: 'Infinite side scrolling',
@@ -21,11 +26,6 @@ const tileData = [
     img: '/images/simplex-terrain.png',
     href: '/experiments/terrain',
     title: 'Random terrain generation',
-  },
-  {
-    img: '/images/parallax.png',
-    href: '/experiments/parallax',
-    title: 'Parallax effect',
   },
   {
     img: '/images/mandelbrot.png',
@@ -51,6 +51,11 @@ const tileData = [
     img: '/images/llark.png',
     href: '/experiments/llark',
     title: 'Llark knight animation',
+  },
+  {
+    img: '/images/parallax.png',
+    href: '/experiments/parallax',
+    title: 'Parallax effect',
   },
 ]
 
